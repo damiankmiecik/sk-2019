@@ -17,7 +17,7 @@ Konfiguracja połączenia sieciowego
 | ------------- |:-------------:| -----:|
 | Adres IP      | XX.XX.XX.XX | przydzielony przez DHCP |
 | Maska podsieci      |  |  |
-| Brama      | 10.0.2.2 | route -n | grep "UG"|
+| Brama      | 10.0.2.2 | route -n  grep "UG"|
 | DNS 1      |  |  |
 | DNS 2      |  |  |
 
