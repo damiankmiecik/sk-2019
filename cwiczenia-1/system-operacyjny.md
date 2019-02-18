@@ -6,7 +6,7 @@ Charakterystyka systemu operacyjnego
 
 | Charakterystyka | wartość           | komentarzu |
 | ------------- |:-------------:| -----:|
-| nazwa      | linux | centos 7 |
+| nazwa      | linux | linux mint |
 | program (parametry sieci)      | niewiem |  |
 
 
@@ -17,7 +17,7 @@ Konfiguracja połączenia sieciowego
 | ------------- |:-------------:| -----:|
 | Adres IP      | XX.XX.XX.XX | przydzielony przez DHCP |
 | Maska podsieci      |  |  |
-| Brama      |  |  |
+| Brama      | 10.0.2.2 | route -n | grep "UG"|
 | DNS 1      |  |  |
 | DNS 2      |  |  |
 
