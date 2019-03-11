@@ -62,4 +62,6 @@ Zadanie
 
 https://tlk.io/sk-2019
 
+https://s3.eu-central-1.amazonaws.com/jkan.pl/PC1.7z
+
 
