@@ -52,3 +52,13 @@ Zadanie
    * Przygotuj dokumentację pisemno obrazkową z wykonania zadania w formacie ``markdown`` zamieść ją w serwisie ``github.com`` obok obocnego tematu ``cwiczenia-3``
 
 ![zadanie 3.1](cwiczenia3.1.svg) 
+
+<1 maszyna>
+cd http-chat/server/
+python httpchat.py
+
+<2 maszyna>
+curl -X POST -d '{"text": "<treść wiadomości>"}' http://172.16.100.10:8888/chat
+
+
+
