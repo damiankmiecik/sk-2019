@@ -33,9 +33,9 @@ ip
 |               |    ``ip link show dev enp0s3`` | wyświetlenie informacji o link maszyny |
 |               |    ``ip link set enp0s3 down/up``| reset ip maszyny (WYKONAĆ)         |
 |   ``chat``    |                                |                                                   |
-|               |    ``cd http-chat/server/`` - pierwsza maszyna |                                                    |
-|               |    ``python httpchat.py`` - pierwsza maszyna   |                                                    |
-|               |    ``curl -X POST -d '{"text": "<treść wiadomości>"}' http://172.16.100.10:8888/chat`` - druga maszyna||
+|               |    ``cd http-chat/server/`` - pierwsza maszyna | ścieżka do serwera python         |
+|               |    ``python httpchat.py`` - pierwsza maszyna   | połączenie z serwerem chatu       |
+|               |    ``curl -X POST -d '{"text": "<treść wiadomości>"}' http://172.16.100.10:8888/chat`` - druga maszyna| przesyłanie wiadomości na pierwszą maszynę|
 |   ``route``   |  | |
 |   ``maddr``   |  | |
 |   ``neigh``   |  | |
