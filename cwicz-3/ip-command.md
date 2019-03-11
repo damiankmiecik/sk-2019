@@ -25,14 +25,15 @@ ip
 -------------------------
 | subcommand    |  polecenie   | opis  |
 | ------------- |:-------------| :---------------| 
-|   ``addr``    |                                | infirmacje o adresacji i własnościach interfejsów |
+|   ``addr``    |                                | informacje o adresacji i własnościach interfejsów |
 |               |   ``ip addr``                  | informacja o wszystkich interfejsach              |
 |               |   ``ip addr show dev enp0s3``  | informacja o konkretnym interfejsie               |
-|               |    ``ip addr add/del <address> dev <maszyna>``
-|   ``link``    |                                |                                                   |
-|               |    ``ip link show dev enp0s3`` |                                                   |
-|               |    ``ip link set enp0s3 down/up``|                                                 |
-|   ``chat``    |    ``cd http-chat/server/`` - pierwsza maszyna |                                                    |
+|               |    ``ip addr add/del <address> dev <maszyna>``| dodwanie/usunięcie adresu IP do maszyny |
+|   ``link``    |                                | konfigurowanie włączanie i zarządzanie urządzeniami sieciowymi|                     |
+|               |    ``ip link show dev enp0s3`` | wyświetlenie informacji o link maszyny |
+|               |    ``ip link set enp0s3 down/up``| reset ip maszyny (WYKONAĆ)         |
+|   ``chat``    |                                |                                                   |
+|               |    ``cd http-chat/server/`` - pierwsza maszyna |                                                    |
 |               |    ``python httpchat.py`` - pierwsza maszyna   |                                                    |
 |               |    ``curl -X POST -d '{"text": "<treść wiadomości>"}' http://172.16.100.10:8888/chat`` - druga maszyna||
 |   ``route``   |  | |
@@ -60,9 +61,4 @@ Zadanie
 ![zadanie 3.1](cwiczenia3.1.svg) 
 
 
-<1 maszyna>
-cd http-chat/server/
-python httpchat.py
 
-<2 maszyna>
-curl -X POST -d '{"text": "<treść wiadomości>"}' http://172.16.100.10:8888/chat
