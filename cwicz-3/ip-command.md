@@ -52,7 +52,7 @@ Zadanie
 2.
    * Zainstaluj na komputerze ``PC1`` serwer programu ``HTTP CHAT`` dostępnego pod adresem ``https://github.com/jkanclerz/http-chat``
    * Przetestuj komunikację wysyłając wiadomość z komputera ``PC2``, upewnij się czy jest widoczna w konsoli serwera
-3.
+3. // pamiętać o utworzeniu i ustawieniu sieci globalnej (bez fajeczek) w oraclu na obu maszynach
    * Dodaj do istniejącej sieci komputer ``PC3`` pod kontroloą systemu windows
    * Skonfiguruj ``PC3`` zgodnie z poniższym diagramem
    * Zweryfkuj połączenie kożystając z przeglądarki, odwiedzając graficzny interfejs ``HTTP CHAT`` pod adresem ``http://172.16.100.10:8888``
