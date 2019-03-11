@@ -32,9 +32,9 @@ ip
 |   ``link``    |                                |                                                   |
 |               |    ``ip link show dev enp0s3`` |                                                   |
 |               |    ``ip link set enp0s3 down/up``|                                                 |
-|               |                               |                                                    |
-|               |                               |                                                    |
-|               |                               |                                                    |
+|   ``chat``    |    ``cd http-chat/server/`` - pierwsza maszyna |                                                    |
+|               |    ``python httpchat.py`` - pierwsza maszyna   |                                                    |
+|               |    ``curl -X POST -d '{"text": "<treść wiadomości>"}' http://172.16.100.10:8888/chat`` - druga maszyna||
 |   ``route``   |  | |
 |   ``maddr``   |  | |
 |   ``neigh``   |  | |
