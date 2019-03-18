@@ -36,8 +36,10 @@ ip
 |               |    ``cd http-chat/server/`` - pierwsza maszyna | ścieżka do serwera python         |
 |               |    ``python httpchat.py`` - pierwsza maszyna   | połączenie z serwerem chatu       |
 |               |    ``curl -X POST -d '{"text": "<treść wiadomości>"}' http://172.16.100.10:8888/chat`` - druga maszyna| przesyłanie wiadomości na pierwszą maszynę|
-|   ``route``   |  | |
-|   ``maddr``   |  | |
+|   ``route``   | ``ip route show`` | |
+|               | ``ip route get 172.16.100.50`` | podać jakiś adres i podaje, do którego go odwołuje np. 172.16.100.50 bd należeć do 172.16.100.10 |
+|               |   `ip route add/del (default) via <address>  np. via 172.16.100.1      |
+|   ``maddr``   |           |
 |   ``neigh``   |  | |
 |   ``help``    |  | |
 
