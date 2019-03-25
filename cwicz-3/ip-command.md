@@ -68,3 +68,25 @@ https://tlk.io/sk-2019
 https://s3.eu-central-1.amazonaws.com/jkan.pl/PC1.7z
 
 
+nano etc/network/interfaces
+
+# The loopback network interface
+auto lo
+iface lo inet loopback
+
+# The primary network interface
+allow-hotplug enp0s3
+iface enp0s3 inet static
+  address 192.168.100.1
+  netmask 255.255.255.0
+  
+auto enp0s8
+iface enp0s8 inet static
+  address 192.168.200.1
+  netmask 255.255.255.0
+  up up route add..
+  down ip route del..
+
+
+
+
