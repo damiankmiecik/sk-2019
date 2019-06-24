@@ -45,10 +45,10 @@ użyte komendy: </br>
 Całość została przetestowana komendą ``ping google.pl``na wszystkich PC.
 
 Podział sieci:
-Aby otrzymać 500 podsieci, należy pożyczyć z części hosta 2n >= 500, n = 9, czyli 17+9 = 26
-255.255.11111111.10000000 
-255.255.255.128
-2^7-2 hostów, czyli 126 hostów
+Aby otrzymać 500 podsieci, należy pożyczyć z części hosta 2n >= 500, n = 9, czyli 17+9 = 26 </br>
+255.255.11111111.10000000 </br>
+255.255.255.128 </br>
+2^7-2 hostów, czyli 126 hostów </br>
 
 |Nr podsieci    |     Adres podsieci    |          Zakres hostów                     |           Broadcast         |
 |---------------|-----------------------|--------------------------------------------|-----------------------------|
