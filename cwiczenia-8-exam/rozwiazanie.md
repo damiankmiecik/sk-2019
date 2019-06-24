@@ -51,7 +51,7 @@ Całość została przetestowana komendą ``ping google.pl``na wszystkich PC. </
 LAN1 </br>
 
 Aby otrzymać 500 podsieci, należy pożyczyć z części hosta 2^n >= 500, n = 9, czyli 17+9 = 26 </br>
-255.255.11111111.11000000 </br>
+11111111.11111111.11111111.11000000 </br>
 255.255.255.192 </br>
 2^6-2, czyli 62 hosty </br>
 
@@ -68,7 +68,7 @@ Przykłady: </br>
 LAN2 </br>
 
 Aby otrzymać 5000 podsieci, należy pożyczyć z części hosta 2^n >= 5000, n = 13, czyli 17+13 = 30 </br>
-255.255.11111111.11111100 </br>
+11111111.11111111.11111111.11111100 </br>
 255.255.255.252 </br>
 2^2-2, czyli 2 hosty </br>
 
