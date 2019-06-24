@@ -41,5 +41,17 @@ użyte komendy: </br>
 ``iptables -t nat -A POSTROUTING -s *** -o *** -j MASQUERADE`` </br>
 
 *** - ip/nazwa
+172.22.128.0/17
+Całość została przetestowana komendą ``ping google.pl``na wszystkich PC.
 
-całość została przetestowana komendą ``ping google.pl`` wyegzekwowaną na PC1 i PC2
+Podział sieci:
+Aby otrzymać 500 podsieci, należy pożyczyć z części hosta 2n >= 500, n = 9, czyli 17+9 = 26
+255.255.11111111.10000000 
+255.255.255.128
+2^7-2 hostów, czyli 126 hostów
+
+|Nr podsieci    |     Adres podsieci    |          Zakres hostów                     |           Broadcast 
+----------------------------------------------------------------------------------------------------------------
+|     1         |   172.22.128.0/26     |   172.22.128.1 - 172.16.128.126            |          172.22.128.127 
+|     2         |   172.22.128.128/26   |   172.22.128.129 - 172.16.128.254          |          172.22.128.255 
+|     3         |   172.22.129.0/26     |   172.22.129.1 - 172.16.129.126            |          172.22.129.127 
