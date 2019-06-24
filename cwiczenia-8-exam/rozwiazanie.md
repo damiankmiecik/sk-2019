@@ -44,7 +44,7 @@ użyte komendy: </br>
 
 *** - ip/nazwa
 
-Całość została przetestowana komendą ``ping google.pl``na wszystkich PC.
+Całość została przetestowana komendą ``ping google.pl``na wszystkich PC. </br></br>
 
 <b>Podział sieci: </b></br></br>
 172.22.128.0/17 </br></br>
@@ -59,11 +59,11 @@ Aby otrzymać 500 podsieci, należy pożyczyć z części hosta 2n >= 500, n = 9
 |     2         |   172.22.128.128/26   |   172.22.128.129 - 172.22.128.254          |          172.22.128.255     |
 |     3         |   172.22.129.0/26     |   172.22.129.1 - 172.22.129.126            |          172.22.129.127     |
 
-</br></br>
+</br>
 
 <b>Forma graficzna: </b></br></br>
 
-
+![diagram](cwiczenia-8.dia)
 
 
 
