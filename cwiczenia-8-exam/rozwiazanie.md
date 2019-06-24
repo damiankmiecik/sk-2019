@@ -44,7 +44,7 @@ użyte komendy: </br>
 172.22.128.0/17
 Całość została przetestowana komendą ``ping google.pl``na wszystkich PC.
 
-Podział sieci:
+Podział sieci: </br></br>
 Aby otrzymać 500 podsieci, należy pożyczyć z części hosta 2n >= 500, n = 9, czyli 17+9 = 26 </br>
 255.255.11111111.10000000 </br>
 255.255.255.128 </br>
