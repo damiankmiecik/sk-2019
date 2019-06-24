@@ -10,8 +10,8 @@ Zaproponuj rozwiązanie spełniające poniższe wymagania:
  
 Rozwiązanie
 -----------
-| LAN1 | 172.22.128.0/23 | 
-| LAN2 | 172.22.160.0/19 |
+LAN1 - 172.22.128.0/23  
+LAN2 - 172.22.160.0/19 
 
 PC0  
 -------------------
@@ -38,9 +38,9 @@ PC2
 użyte komendy: </br>
 ``ip addr add *** dev ***`` - PC0, PC1, PC2 </br> 
 ``ip link set *** up`` - PC0 </br>
-``ip route add default via *** dev ***`` </br>
-``echo 1 > /proc/sys/net/ipv4/ip_forward`` / ``sysctl -w net.ipv4.ip_forward=1``</br>
-``iptables -t nat -A POSTROUTING -s *** -o *** -j MASQUERADE`` </br>
+``ip route add default via *** dev ***`` - PC1, PC2 </br>
+``echo 1 > /proc/sys/net/ipv4/ip_forward`` / ``sysctl -w net.ipv4.ip_forward=1`` - PC0 </br>
+``iptables -t nat -A POSTROUTING -s *** -o *** -j MASQUERADE`` - PC0 </br>
 
 *** - ip/nazwa
 
