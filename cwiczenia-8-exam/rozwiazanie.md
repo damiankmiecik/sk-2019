@@ -63,7 +63,7 @@ Aby otrzymać 500 podsieci, należy pożyczyć z części hosta 2n >= 500, n = 9
 
 <b>Forma graficzna: </b></br></br>
 
-![diagram](cwiczenia-8.dia)
+![diagram](cwiczenia-8.jpg)
 
 
 
